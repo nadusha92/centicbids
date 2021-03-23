@@ -12,9 +12,9 @@
         android:roundIcon="@drawable/ic_launcher_new"
         android:supportsRtl="true"
         android:theme="@style/Theme.CenticBids">
-        <activity android:name=".ui.ItemDetailsActivity" />
-        <activity android:name=".ui.LoginScreen"/>
-        <activity android:name=".ui.MainActivity">
+        <activity android:name=".ui.ItemDetailsActivity"  android:screenOrientation="portrait"/>
+        <activity android:name=".ui.LoginScreen" android:screenOrientation="portrait"/>
+        <activity android:name=".ui.MainActivity" android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
