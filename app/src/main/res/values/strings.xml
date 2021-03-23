@@ -1,0 +1,32 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">CenticBids</string>
+    <string name="notification_channel_name">CenticBids Notification Channel</string>
+    <string name="notification_channel_description">This is to show notifications</string>
+
+    <!--    login screen -->
+    <string name="txt_btn_login">Login with Google</string>
+    <string name="txt_login">Log in to your account</string>
+
+    <string name="txt_base_price">Base Price : </string>
+    <string name="txt_highest_bid">Highest Bid : </string>
+    <string name="txt_expires_in">Expires In : </string>
+    <string name="txt_place_bid">Place Bid</string>
+    <string name="txt_view_item">View Item</string>
+
+    <!--  messages  -->
+    <string name="msg_google_sign_in_failed">Failed to Sign in user!</string>
+    <string name="msg_google_sign_in_success">Signed in successfully!</string>
+    <string name="msg_login_first">You need to login to your account in order to place a bid. Do you want to login ?</string>
+    <string name="msg_logout_confirmation">Are you sure you want to logout ?</string>
+    <string name="msg_yes">Yes</string>
+    <string name="msg_no">No</string>
+    <string name="msg_ok">Ok</string>
+    <string name="msg_cancel">Cancel</string>
+    <string name="msg_failed_to_resolve_document">Failed to resolve document! Try again later.</string>
+    <string name="msg_user_logged_out">Signed out successfully!</string>
+    <string name="msg_user_not_logged_in">You\'re not Signed in!</string>
+    <string name="msg_invalid_amount">Invalid Amount!</string>
+    <string name="msg_bid_placed_successfully">Bid placed successfully!</string>
+    <string name="msg_failed_to_place_bid">Failed to place bid!</string>
+
+</resources>
