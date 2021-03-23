@@ -25,11 +25,11 @@ import kotlinx.android.synthetic.main.activity_item_details.*
 
 class ItemDetailsActivity : AppCompatActivity(), EnterAmountDialogListener {
 
-    lateinit var layoutBinding: ActivityItemDetailsBinding
-    lateinit var detailViewModel: ItemDetailViewModel
-    lateinit var firebaseAuth: FirebaseAuth
+    private lateinit var layoutBinding: ActivityItemDetailsBinding
+    private lateinit var detailViewModel: ItemDetailViewModel
+    private lateinit var firebaseAuth: FirebaseAuth
 
-    var documentId: String? = ""
+    private var documentId: String? = ""
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -98,7 +98,7 @@ class ItemDetailsActivity : AppCompatActivity(), EnterAmountDialogListener {
         }
 
         if (!item.images.isNullOrEmpty()) {
-            var imageListener =
+            val imageListener =
                 ImageListener { position, imageView ->
                     Picasso.get()
                         .load(item.images[position])

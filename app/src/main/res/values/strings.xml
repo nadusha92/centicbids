@@ -1,4 +1,4 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
+<resources>
     <string name="app_name">CenticBids</string>
     <string name="notification_channel_name">CenticBids Notification Channel</string>
     <string name="notification_channel_description">This is to show notifications</string>

@@ -76,7 +76,7 @@ object FirebaseRepository {
     }
 
     suspend fun loadItemAndAwaitResponse(documentId: String): ItemResponse {
-        var itemResponse = ItemResponse()
+        val itemResponse = ItemResponse()
         val db = getFireStore()
         try {
             val snapshot = db.collection(Constants.collection_items).document(documentId)

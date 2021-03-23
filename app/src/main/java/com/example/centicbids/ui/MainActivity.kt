@@ -1,11 +1,11 @@
 package com.example.centicbids.ui
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
+import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -19,15 +19,14 @@ import com.example.centicbids.viewmodel.MainActivityViewModel
 import com.google.android.material.snackbar.Snackbar
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.DocumentSnapshot
-import com.google.firebase.firestore.FirebaseFirestore
 import com.google.firebase.firestore.FirebaseFirestoreException
 import com.google.firebase.firestore.Query
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity(), OnItemClickListener {
 
-    lateinit var layoutBinding: ActivityMainBinding
-    lateinit var mainViewModel: MainActivityViewModel
+    private lateinit var layoutBinding: ActivityMainBinding
+    private lateinit var mainViewModel: MainActivityViewModel
 
     private lateinit var firebaseAuth: FirebaseAuth
     private lateinit var mQuery: Query
